@@ -1,4 +1,4 @@
-module github.com/cyverse-de/echo-middleware
+module github.com/cyverse-de/echo-middleware/v2
 
 go 1.13
 
