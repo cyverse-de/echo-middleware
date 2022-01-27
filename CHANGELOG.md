@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.1] - 2022-01-27
+
 ### Added
 
 - A package that implements a custom logger for labstack/echo that uses sirupsen/logrus.
@@ -33,7 +35,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Middleware for serving API documentation using ReDoc.
 
-[unreleased]: https://github.com/cyverse-de/echo-middleware/compare/v2.0.0...HEAD
+[unreleased]: https://github.com/cyverse-de/echo-middleware/compare/v2.0.1...HEAD
+[2.0.1]: https://github.com/cyverse-de/echo-middleware/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/cyverse-de/echo-middleware/compare/v1.0.0...v2.0.0
 [1.0.0]: https://github.com/cyverse-de/echo-middleware/compare/v0.1.0...v1.0.0
 [0.0.1]: https://github.com/cyverse-de/echo-middleware/releases/tag/v0.1.0
