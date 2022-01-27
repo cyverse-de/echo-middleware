@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- A package that implements a custom logger for labstack/echo that uses sirupsen/logrus.
+
 ## [2.0.0] - 2021-12-13
 
 ### Added
