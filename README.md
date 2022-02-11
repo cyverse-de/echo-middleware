@@ -1,3 +1,5 @@
 # echo-middleware
 
-This repository contains middleware that was developed for use with [labstack/echo](https://github.com/labstack/echo).
+This repository contains middleware and libraries that were developed for use with [labstack/echo][1].
+
+[1]: https://github.com/labstack/echo
