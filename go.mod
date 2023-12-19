@@ -9,5 +9,5 @@ require (
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/sirupsen/logrus v1.9.0
 	github.com/valyala/fasttemplate v1.2.2 // indirect
-	golang.org/x/crypto v0.3.0 // indirect
+	golang.org/x/crypto v0.17.0 // indirect
 )
