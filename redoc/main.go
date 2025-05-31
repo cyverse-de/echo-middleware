@@ -7,8 +7,8 @@ import (
 	"bytes"
 	"fmt"
 	"html/template"
-	"io/ioutil"
 	"net/http"
+	"os"
 	"path"
 
 	"github.com/labstack/echo/v4"
@@ -47,7 +47,7 @@ func (r *Opts) EnsureDefaults() {
 func sendSpec(opts Opts, resp *echo.Response) {
 
 	// Open the spec file.
-	b, err := ioutil.ReadFile(opts.SpecPath)
+	b, err := os.ReadFile(opts.SpecPath)
 	if err != nil {
 		resp.Header().Set("Content-Type", "text/plain")
 		resp.WriteHeader(http.StatusNotFound)
