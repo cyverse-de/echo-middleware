@@ -7,7 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Switched to Go 1.25
+- Updated dependencies.
+- Fixed some lint warnings.
+
 ## [3.0.0] - 2025-05-30
+
+### Changed
 
 - Switched to Go 1.24
 - Added a GitHub workflow for running lint checks.
