@@ -51,7 +51,7 @@ func sendSpec(opts Opts, resp *echo.Response) {
 	if err != nil {
 		resp.Header().Set("Content-Type", "text/plain")
 		resp.WriteHeader(http.StatusNotFound)
-		_, _ = resp.Write([]byte(fmt.Sprintf("%s not found", opts.SpecURL)))
+		_, _ = fmt.Fprintf(resp, "%s not found", opts.SpecURL)
 		return
 	}
 
